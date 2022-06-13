@@ -1,0 +1,50 @@
+1)What is DNS
+The acronym for Domain Name System is DNS. It is a naming system that works hierarchically and is decentralized for computers, servers (web servers), services, resources, network devices and components that are present on large networks such as the public Internet.
+For example, in layman terms, it is a phonebook for computers on the Internet.
+It translates and maps alphabetic domain names (websites' web addresses or names) to the numeric Internet Protocol (IP) addresses of computers or servers. And it also does the reverse process. DNS uses User Datagram Protocol (UDP). DNS service uses port number 53.
+Technically, computers or technically the routers (default gateway) use DNS servers to contact to get any domains translated and converted to an IP address of the server hosting a website. The entry for DNS servers could be few or many, as there would be multiple DNS servers. The examples are OpenDNS servers, or Google DNS servers.
+It is a system that uses at least one DNS server to resolve DNS-names. DNS is used because computers and servers do not understand human-readable alphabetic domain names, where humans do not understand and remember numeric IP addresses, which the computers and servers can.
+DNS service or server is an Internet service in general, thus maps or translates human readable domain names (website names or URL, Uniform Resource Locator) into machine or Computer readable IP (Internet Protocol) addresses.
+
+
+1.1)Example ol DNS
+Domain name = www.example.com whose Server IP address is,
+Say=253.136.27.2
+
+1.2)Working of DNS
+The working of DNS is explained below in stepwise manner −
+Step 1 − Every website has a domain name/ IP address associated with it.
+Step 2 − Now IP is a bit complicated to share (as no one wants to write 192.168.224.23 or some random IP to access Tutorials point) so people came up with an idea of domain names which basically stores the IP address mapped to their name.
+Step 3 − Now, a DNS translates every domain name to its IP address so every browser can access that particular website.
+Step 4 − DNS has eased the process of web surfing as we write tutorialspoint.com to reach a website instead of some complicated 32-128 bit address.
+
+
+2)What is DHCP
+DHCP represents Dynamic Host Configuration Protocol. It is a network management protocol that can dynamically assign an IP address to a denial device, or node, on a network so they can connect using IP (Internet Protocol).
+DHCP automates and centrally handles these configurations. There is no requirement to manually assign IP addresses to new devices. Thus, there is no need for any user configuration to connect to a DHCP-based network.
+DHCP decreases the chances of common bugs appearing when IP addresses are created manually. It also ensures no two hosts can have similar IP addresses.
+DHCP act an essential role in handling small web where mobile devices are used and needed IP addresses on a non-permanent support. The electronic allocation of IP addresses enables mobile devices to share openly from one network to another.
+DHCP supports decreasing the typographical errors when IP address configuration parameters are not defined correctly. Because each device should have a unique IP address, duplicate addresses can cause conflict where one or both of the devices cannot connect to the network.
+This appears when addresses are authorized manually. DHCP decreases the risk of such IP address conflicts. If a change is found, the DHCP server is upgraded with new data and the data will be distributed to the new endpoints automatically.
+The use of DHCP provides that DHCP clients get efficient and timely IP configuration parameter including IP address, subnet mask, default gateway, IP address of DND server and so on without customer interference.
+
+
+2.1)Working of DHCP
+	DHCP Server − A DHCP server can be a router or a server role as a host. This is a networked device implementing the DHCP service and influencing IP addresses and associated configuration data.
+
+	DHCP client −DHCP client is the endpoint that receives configuration data from a DHCP server. This can be any device like a computer, laptop, IoT endpoint, or anything else that needs connectivity to the network. Some devices are configured to receive DHCP data by default.
+	DHCP relay −A router or host that accepts client messages being advertised on that network and then forwards them to a configured server. The server then sends responses back to the relay agent that develops them along with the client. This can be used to centralize DHCP servers rather than having a server on each subnet
+	Lease −Lease is the length of time for which a DHCP client influences the IP address data. When a lease ceases, the client has to reopen it.
+	Subnet −IP networks are logically divided into two or more segments called subnets or sub-networks. Therefore, they can be handled effectively.
+
+
+3)Difference between DNS and DHCP
+	DHCP (Dynamic Host Configuration Protocol) and DNS (Domain Name System) both work across the client-server architecture though they are different terms.
+
+
+	While DNS maps the name of the domain to the IP address, DHCP is a protocol that assigns the IP address to the host in a network either dynamically or statically.
+
+
+Conclusion
+In the end, DHCP and DNS are two essential services in IT networks. While a DHCP server sends out information that clients need to communicate with other machines and services, DNS ensures that servers, clients, and services can be found by their names
+
